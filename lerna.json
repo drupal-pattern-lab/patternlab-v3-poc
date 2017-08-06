@@ -1,0 +1,9 @@
+{
+  "lerna": "2.0.0",
+  "packages": [
+    "packages/pattern-lab/styleguidekit-assets-pl3",
+    "packages/theme-tools",
+    "examples/*"
+  ],
+  "version": "independent"
+}

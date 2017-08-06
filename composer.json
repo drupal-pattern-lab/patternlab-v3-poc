@@ -1,0 +1,111 @@
+{
+    "name":             "pattern-lab/patternlab-v3-poc",
+    "description":      "POC of what a v3.0 Pattern Lab might look like",
+    "keywords":         ["pattern lab", "drupal"],
+    "homepage":         "http://patternlab.io",
+    "license":          "GPL-2.0+",
+    "type":             "project",
+    "authors": [
+      {
+        "name":         "Dave Olsen",
+        "email":        "dmolsen@gmail.com",
+        "homepage":     "http://dmolsen.com",
+        "role":         "Lead Developer"
+      },
+    {
+        "name":         "Evan Lovely",
+        "homepage":     "http://evanlovely.com",
+        "role":         "Developer"
+      },
+      {
+        "name":         "Salem Ghoweri",
+        "homepage":     "https://github.com/sghoweri",
+        "role":         "Developer"
+      }
+    ],
+    "support": {
+        "issues":         "https://github.com/pattern-lab/edition-drupal-standard/issues",
+        "wiki":           "http://patternlab.io/docs/",
+        "source":         "https://github.com/pattern-lab/edition-drupal-standard/releases"
+    },
+    "autoload": {
+      "psr-0": {
+        "PatternLab":   "packages/pattern-lab/console/src/"
+      }
+    },
+    "repositories": [
+      {
+        "type": "path",
+        "url": "./packages/pattern-lab/core"
+      },
+      {
+        "type": "path",
+        "url": "./packages/pattern-lab/drupal-twig-components"
+      },
+      {
+        "type": "path",
+        "url": "./packages/pattern-lab/patternengine-twig"
+      },
+      {
+        "type": "path",
+        "url": "./packages/pattern-lab/styleguidekit-assets-pl3"
+      },
+      {
+        "type": "path",
+        "url": "./packages/pattern-lab/styleguidekit-twig-pl3"
+      },
+      {
+        "type": "path",
+        "url": "./packages/aleksip/plugin-data-transform"
+      }
+    ],
+    "require": {
+      "php": ">=5.5.9",
+      "pattern-lab/core": "dev-master",
+      "pattern-lab/patternengine-twig": "dev-master",
+      "pattern-lab/styleguidekit-twig-pl3": "dev-master",
+      "pattern-lab/styleguidekit-assets-pl3": "dev-master",
+      "pattern-lab/drupal-twig-components": "dev-master",
+      "aleksip/plugin-data-transform": "dev-master"
+    },
+    "config": {
+      "process-timeout": 0
+    },
+    "minimum-stability": "dev",
+    "scripts": {
+        "server": "php core/console --server",
+        "generate": "php core/console --generate",
+        "watch": "php core/console --watch",
+        "start": "php core/console --server --quiet & php core/console --watch",
+        "post-install-cmd": [
+          "PatternLab\\Installer::postInstallCmd"
+        ],
+        "post-update-cmd": [
+          "PatternLab\\Installer::postUpdateCmd"
+        ],
+        "post-root-package-install": [
+          "PatternLab\\Installer::setProjectInstall",
+          "PatternLab\\Installer::getSuggestedStarterKits",
+          "PatternLab\\Installer::getConfigOverrides"
+        ],
+        "post-package-install": [
+          "PatternLab\\Installer::postPackageInstall"
+        ],
+        "post-package-update": [
+          "PatternLab\\Installer::postPackageUpdate"
+        ],
+        "pre-package-uninstall": [
+          "PatternLab\\Installer::prePackageUninstall"
+        ]
+      },
+    "extra": {
+      "patternlab": {
+        "starterKitSuggestions": [
+          "pattern-lab/starterkit-twig-demo",
+          "pattern-lab/starterkit-twig-drupal-minimal",
+          "aleksip/starterkit-shila-drupal-theme",
+          "forumone/starterkit-twig-drupal-gesso"
+        ]
+      }
+    }
+}

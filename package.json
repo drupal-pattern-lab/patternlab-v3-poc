@@ -1,0 +1,21 @@
+{
+  "name": "common",
+  "description": "common theme",
+  "version": "0.4.6",
+  "private": true,
+  "scripts": {
+    "start": "gulp",
+    "start:styleguidekit": "cd packages/pattern-lab/styleguidekit-assets-pl3 && gulp serve --watch --copy-dist=../../../public",
+    "compile": "gulp compile",
+    "setup": "composer install --no-interaction | lerna bootstrap"
+  },
+  "dependencies": {
+    "@theme-tools/plugin-browser-sync": "^0.4.3",
+    "@theme-tools/plugin-js-concat-babel": "^0.4.3",
+    "@theme-tools/plugin-pattern-lab-php": "^0.4.3",
+    "@theme-tools/plugin-sass": "^0.4.4",
+    "babel-preset-es2015": "^6.24.1",
+    "gulp": "gulpjs/gulp#4.0",
+    "lerna": "^2.0.0"
+  }
+}
