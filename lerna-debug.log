@@ -2,4 +2,873 @@
 1 silly flags { _: [ 'bootstrap' ], args: [] }
 2 verbose rootPath /Users/sghoweri/sites/patternlab-v3-poc
 3 info version 2.0.0
-4 error ENOLERNA `lerna.json` does not exist, have you run `lerna init`?
+4 info versioning independent
+5 silly existsSync /Users/sghoweri/sites/patternlab-v3-poc/VERSION
+6 silly initialize attempt
+7 silly initialize success
+8 silly execute attempt
+9 info Bootstrapping 2 packages
+10 info lifecycle preinstall
+11 silly runScript preinstall styleguidekit-assets-default
+12 silly styleguidekit-assets-default
+13 silly runScript preinstall theme-tools
+14 silly theme-tools
+15 silly hasDependencyInstalled styleguidekit-assets-default babel-preset-es2015
+16 silly dependencyIsSatisfied [ 'babel-preset-es2015',
+16 silly dependencyIsSatisfied   '^6.24.1',
+16 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+17 verbose dependencyIsSatisfied babel-preset-es2015 false
+18 silly hasDependencyInstalled styleguidekit-assets-default gulp
+19 silly dependencyIsSatisfied [ 'gulp',
+19 silly dependencyIsSatisfied   '^3.8.6',
+19 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+20 verbose dependencyIsSatisfied gulp false
+21 silly hasDependencyInstalled theme-tools lerna
+22 silly dependencyIsSatisfied [ 'lerna',
+22 silly dependencyIsSatisfied   '^2.0.0-rc.5',
+22 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/theme-tools/node_modules' ]
+23 verbose dependencyIsSatisfied lerna true
+24 silly hasDependencyInstalled styleguidekit-assets-default del
+25 silly dependencyIsSatisfied [ 'del',
+25 silly dependencyIsSatisfied   '^1.1.1',
+25 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+26 verbose dependencyIsSatisfied del false
+27 silly hasDependencyInstalled styleguidekit-assets-default gulp-autoprefixer
+28 silly dependencyIsSatisfied [ 'gulp-autoprefixer',
+28 silly dependencyIsSatisfied   '^2.1',
+28 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+29 verbose dependencyIsSatisfied gulp-autoprefixer false
+30 silly hasDependencyInstalled styleguidekit-assets-default gulp-concat
+31 silly dependencyIsSatisfied [ 'gulp-concat',
+31 silly dependencyIsSatisfied   '^2.3.4',
+31 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+32 verbose dependencyIsSatisfied gulp-concat false
+33 silly hasDependencyInstalled styleguidekit-assets-default gulp-file-include
+34 silly dependencyIsSatisfied [ 'gulp-file-include',
+34 silly dependencyIsSatisfied   '^0.13.7',
+34 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+35 verbose dependencyIsSatisfied gulp-file-include false
+36 silly hasDependencyInstalled styleguidekit-assets-default gulp-imagemin
+37 silly dependencyIsSatisfied [ 'gulp-imagemin',
+37 silly dependencyIsSatisfied   '^0.6.1',
+37 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+38 verbose dependencyIsSatisfied gulp-imagemin false
+39 silly hasDependencyInstalled styleguidekit-assets-default gulp-jshint
+40 silly dependencyIsSatisfied [ 'gulp-jshint',
+40 silly dependencyIsSatisfied   '^1.8.0',
+40 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+41 verbose dependencyIsSatisfied gulp-jshint false
+42 silly hasDependencyInstalled styleguidekit-assets-default gulp-load-plugins
+43 silly dependencyIsSatisfied [ 'gulp-load-plugins',
+43 silly dependencyIsSatisfied   '^0.5.3',
+43 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+44 verbose dependencyIsSatisfied gulp-load-plugins false
+45 silly hasDependencyInstalled styleguidekit-assets-default gulp-minify-css
+46 silly dependencyIsSatisfied [ 'gulp-minify-css',
+46 silly dependencyIsSatisfied   '^0.3.7',
+46 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+47 verbose dependencyIsSatisfied gulp-minify-css false
+48 silly hasDependencyInstalled styleguidekit-assets-default gulp-rename
+49 silly dependencyIsSatisfied [ 'gulp-rename',
+49 silly dependencyIsSatisfied   '^1.2.0',
+49 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+50 verbose dependencyIsSatisfied gulp-rename false
+51 silly hasDependencyInstalled styleguidekit-assets-default gulp-resolve-dependencies
+52 silly dependencyIsSatisfied [ 'gulp-resolve-dependencies',
+52 silly dependencyIsSatisfied   '^1.0.1',
+52 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+53 verbose dependencyIsSatisfied gulp-resolve-dependencies false
+54 silly hasDependencyInstalled styleguidekit-assets-default gulp-ruby-sass
+55 silly dependencyIsSatisfied [ 'gulp-ruby-sass',
+55 silly dependencyIsSatisfied   '^1.0.0-alpha',
+55 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+56 verbose dependencyIsSatisfied gulp-ruby-sass false
+57 silly hasDependencyInstalled styleguidekit-assets-default gulp-uglify
+58 silly dependencyIsSatisfied [ 'gulp-uglify',
+58 silly dependencyIsSatisfied   '^1.1.0',
+58 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+59 verbose dependencyIsSatisfied gulp-uglify false
+60 silly hasDependencyInstalled styleguidekit-assets-default gulp-util
+61 silly dependencyIsSatisfied [ 'gulp-util',
+61 silly dependencyIsSatisfied   '^3.0.8',
+61 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+62 verbose dependencyIsSatisfied gulp-util false
+63 silly hasDependencyInstalled styleguidekit-assets-default imagemin-pngcrush
+64 silly dependencyIsSatisfied [ 'imagemin-pngcrush',
+64 silly dependencyIsSatisfied   '^0.1.0',
+64 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+65 verbose dependencyIsSatisfied imagemin-pngcrush false
+66 silly hasDependencyInstalled styleguidekit-assets-default main-bower-files
+67 silly dependencyIsSatisfied [ 'main-bower-files',
+67 silly dependencyIsSatisfied   '^1.0.2',
+67 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+68 verbose dependencyIsSatisfied main-bower-files false
+69 silly hasDependencyInstalled styleguidekit-assets-default webpack
+70 silly dependencyIsSatisfied [ 'webpack',
+70 silly dependencyIsSatisfied   '^3.0.0',
+70 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+71 verbose dependencyIsSatisfied webpack false
+72 silly hasDependencyInstalled styleguidekit-assets-default webpack-bundle-analyzer
+73 silly dependencyIsSatisfied [ 'webpack-bundle-analyzer',
+73 silly dependencyIsSatisfied   '^2.8.2',
+73 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+74 verbose dependencyIsSatisfied webpack-bundle-analyzer false
+75 silly hasDependencyInstalled styleguidekit-assets-default yargs
+76 silly dependencyIsSatisfied [ 'yargs',
+76 silly dependencyIsSatisfied   '^1.2.6',
+76 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+77 verbose dependencyIsSatisfied yargs false
+78 silly hasDependencyInstalled styleguidekit-assets-default iron-icons
+79 silly dependencyIsSatisfied [ 'iron-icons',
+79 silly dependencyIsSatisfied   'https://github.com/PolymerElements/iron-icons/archive/v2.0.1.zip',
+79 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+80 verbose dependencyIsSatisfied iron-icons false
+81 silly hasDependencyInstalled styleguidekit-assets-default babel-core
+82 silly dependencyIsSatisfied [ 'babel-core',
+82 silly dependencyIsSatisfied   '^6.25.0',
+82 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+83 verbose dependencyIsSatisfied babel-core false
+84 silly hasDependencyInstalled styleguidekit-assets-default babel-loader
+85 silly dependencyIsSatisfied [ 'babel-loader',
+85 silly dependencyIsSatisfied   '^7.1.1',
+85 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+86 verbose dependencyIsSatisfied babel-loader false
+87 silly hasDependencyInstalled styleguidekit-assets-default babel-plugin-dynamic-import-webpack
+88 silly dependencyIsSatisfied [ 'babel-plugin-dynamic-import-webpack',
+88 silly dependencyIsSatisfied   '^1.0.1',
+88 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+89 verbose dependencyIsSatisfied babel-plugin-dynamic-import-webpack false
+90 silly hasDependencyInstalled styleguidekit-assets-default babel-plugin-rewire-exports
+91 silly dependencyIsSatisfied [ 'babel-plugin-rewire-exports',
+91 silly dependencyIsSatisfied   '^0.2.0',
+91 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+92 verbose dependencyIsSatisfied babel-plugin-rewire-exports false
+93 silly hasDependencyInstalled styleguidekit-assets-default babel-plugin-transform-es2015-modules-commonjs
+94 silly dependencyIsSatisfied [ 'babel-plugin-transform-es2015-modules-commonjs',
+94 silly dependencyIsSatisfied   '^6.24.1',
+94 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+95 verbose dependencyIsSatisfied babel-plugin-transform-es2015-modules-commonjs false
+96 silly hasDependencyInstalled styleguidekit-assets-default babel-plugin-transform-export-extensions
+97 silly dependencyIsSatisfied [ 'babel-plugin-transform-export-extensions',
+97 silly dependencyIsSatisfied   '^6.22.0',
+97 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+98 verbose dependencyIsSatisfied babel-plugin-transform-export-extensions false
+99 silly hasDependencyInstalled styleguidekit-assets-default babel-plugin-transform-object-rest-spread
+100 silly dependencyIsSatisfied [ 'babel-plugin-transform-object-rest-spread',
+100 silly dependencyIsSatisfied   '^6.23.0',
+100 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+101 verbose dependencyIsSatisfied babel-plugin-transform-object-rest-spread false
+102 silly hasDependencyInstalled styleguidekit-assets-default babel-plugin-transform-runtime
+103 silly dependencyIsSatisfied [ 'babel-plugin-transform-runtime',
+103 silly dependencyIsSatisfied   '^6.23.0',
+103 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+104 verbose dependencyIsSatisfied babel-plugin-transform-runtime false
+105 silly hasDependencyInstalled styleguidekit-assets-default babel-polyfill
+106 silly dependencyIsSatisfied [ 'babel-polyfill',
+106 silly dependencyIsSatisfied   '^6.22.0',
+106 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+107 verbose dependencyIsSatisfied babel-polyfill false
+108 silly hasDependencyInstalled styleguidekit-assets-default babel-preset-env
+109 silly dependencyIsSatisfied [ 'babel-preset-env',
+109 silly dependencyIsSatisfied   '^1.1.8',
+109 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+110 verbose dependencyIsSatisfied babel-preset-env false
+111 silly hasDependencyInstalled styleguidekit-assets-default babel-preset-react
+112 silly dependencyIsSatisfied [ 'babel-preset-react',
+112 silly dependencyIsSatisfied   '^6.22.0',
+112 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+113 verbose dependencyIsSatisfied babel-preset-react false
+114 silly hasDependencyInstalled styleguidekit-assets-default babel-preset-stage-2
+115 silly dependencyIsSatisfied [ 'babel-preset-stage-2',
+115 silly dependencyIsSatisfied   '^6.24.1',
+115 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+116 verbose dependencyIsSatisfied babel-preset-stage-2 false
+117 silly hasDependencyInstalled styleguidekit-assets-default babel-preset-stage-3
+118 silly dependencyIsSatisfied [ 'babel-preset-stage-3',
+118 silly dependencyIsSatisfied   '^6.22.0',
+118 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+119 verbose dependencyIsSatisfied babel-preset-stage-3 false
+120 silly hasDependencyInstalled styleguidekit-assets-default babel-runtime
+121 silly dependencyIsSatisfied [ 'babel-runtime',
+121 silly dependencyIsSatisfied   '^6.11.6',
+121 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+122 verbose dependencyIsSatisfied babel-runtime false
+123 silly hasDependencyInstalled styleguidekit-assets-default cash-dom
+124 silly dependencyIsSatisfied [ 'cash-dom',
+124 silly dependencyIsSatisfied   '^1.3.5',
+124 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+125 verbose dependencyIsSatisfied cash-dom false
+126 silly hasDependencyInstalled styleguidekit-assets-default es-event-emitter
+127 silly dependencyIsSatisfied [ 'es-event-emitter',
+127 silly dependencyIsSatisfied   'github:Zlobin/EventEmitter',
+127 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+128 verbose dependencyIsSatisfied es-event-emitter false
+129 silly hasDependencyInstalled styleguidekit-assets-default exports-loader
+130 silly dependencyIsSatisfied [ 'exports-loader',
+130 silly dependencyIsSatisfied   '^0.6.4',
+130 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+131 verbose dependencyIsSatisfied exports-loader false
+132 silly hasDependencyInstalled styleguidekit-assets-default fg-loadcss
+133 silly dependencyIsSatisfied [ 'fg-loadcss',
+133 silly dependencyIsSatisfied   '^1.3.1',
+133 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+134 verbose dependencyIsSatisfied fg-loadcss false
+135 silly hasDependencyInstalled styleguidekit-assets-default fs
+136 silly dependencyIsSatisfied [ 'fs',
+136 silly dependencyIsSatisfied   '0.0.1-security',
+136 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+137 verbose dependencyIsSatisfied fs false
+138 silly hasDependencyInstalled styleguidekit-assets-default grunt-cli
+139 silly dependencyIsSatisfied [ 'grunt-cli',
+139 silly dependencyIsSatisfied   '^1.2.0',
+139 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+140 verbose dependencyIsSatisfied grunt-cli false
+141 silly hasDependencyInstalled styleguidekit-assets-default gulp-connect
+142 silly dependencyIsSatisfied [ 'gulp-connect',
+142 silly dependencyIsSatisfied   '^5.0.0',
+142 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+143 verbose dependencyIsSatisfied gulp-connect false
+144 silly hasDependencyInstalled styleguidekit-assets-default gulp-exec
+145 silly dependencyIsSatisfied [ 'gulp-exec',
+145 silly dependencyIsSatisfied   '^2.1.3',
+145 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+146 verbose dependencyIsSatisfied gulp-exec false
+147 silly hasDependencyInstalled styleguidekit-assets-default gulp-if
+148 silly dependencyIsSatisfied [ 'gulp-if',
+148 silly dependencyIsSatisfied   '^2.0.2',
+148 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+149 verbose dependencyIsSatisfied gulp-if false
+150 silly hasDependencyInstalled styleguidekit-assets-default gulp-plumber
+151 silly dependencyIsSatisfied [ 'gulp-plumber',
+151 silly dependencyIsSatisfied   '^1.1.0',
+151 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+152 verbose dependencyIsSatisfied gulp-plumber false
+153 silly hasDependencyInstalled styleguidekit-assets-default hogan
+154 silly dependencyIsSatisfied [ 'hogan',
+154 silly dependencyIsSatisfied   '^1.0.2',
+154 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+155 verbose dependencyIsSatisfied hogan false
+156 silly hasDependencyInstalled styleguidekit-assets-default hogan.js
+157 silly dependencyIsSatisfied [ 'hogan.js',
+157 silly dependencyIsSatisfied   '^3.0.2',
+157 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+158 verbose dependencyIsSatisfied hogan.js false
+159 silly hasDependencyInstalled styleguidekit-assets-default imports-loader
+160 silly dependencyIsSatisfied [ 'imports-loader',
+160 silly dependencyIsSatisfied   '^0.7.1',
+160 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+161 verbose dependencyIsSatisfied imports-loader false
+162 silly hasDependencyInstalled styleguidekit-assets-default jquery
+163 silly dependencyIsSatisfied [ 'jquery',
+163 silly dependencyIsSatisfied   'https://github.com/jquery/jquery/archive/3.2.1.tar.gz',
+163 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+164 verbose dependencyIsSatisfied jquery false
+165 silly hasDependencyInstalled styleguidekit-assets-default jwerty
+166 silly dependencyIsSatisfied [ 'jwerty',
+166 silly dependencyIsSatisfied   'keithamus/jwerty#master',
+166 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+167 verbose dependencyIsSatisfied jwerty false
+168 silly hasDependencyInstalled styleguidekit-assets-default jwerty-globals-fixed
+169 silly dependencyIsSatisfied [ 'jwerty-globals-fixed',
+169 silly dependencyIsSatisfied   '^0.3.2',
+169 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+170 verbose dependencyIsSatisfied jwerty-globals-fixed false
+171 silly hasDependencyInstalled styleguidekit-assets-default loadjs
+172 silly dependencyIsSatisfied [ 'loadjs',
+172 silly dependencyIsSatisfied   '^3.5.0',
+172 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+173 verbose dependencyIsSatisfied loadjs false
+174 silly hasDependencyInstalled styleguidekit-assets-default npm-git-install
+175 silly dependencyIsSatisfied [ 'npm-git-install',
+175 silly dependencyIsSatisfied   '^0.3.0',
+175 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+176 verbose dependencyIsSatisfied npm-git-install false
+177 silly hasDependencyInstalled styleguidekit-assets-default path
+178 silly dependencyIsSatisfied [ 'path',
+178 silly dependencyIsSatisfied   '^0.12.7',
+178 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+179 verbose dependencyIsSatisfied path false
+180 silly hasDependencyInstalled styleguidekit-assets-default prismjs
+181 silly dependencyIsSatisfied [ 'prismjs',
+181 silly dependencyIsSatisfied   'github:PrismJS/prism',
+181 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+182 verbose dependencyIsSatisfied prismjs false
+183 silly hasDependencyInstalled styleguidekit-assets-default process
+184 silly dependencyIsSatisfied [ 'process',
+184 silly dependencyIsSatisfied   '^0.11.10',
+184 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+185 verbose dependencyIsSatisfied process false
+186 silly hasDependencyInstalled styleguidekit-assets-default run-sequence
+187 silly dependencyIsSatisfied [ 'run-sequence',
+187 silly dependencyIsSatisfied   '^2.0.0',
+187 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+188 verbose dependencyIsSatisfied run-sequence false
+189 silly hasDependencyInstalled styleguidekit-assets-default twig
+190 silly dependencyIsSatisfied [ 'twig',
+190 silly dependencyIsSatisfied   '^1.10.5',
+190 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+191 verbose dependencyIsSatisfied twig false
+192 silly hasDependencyInstalled styleguidekit-assets-default typeahead.js
+193 silly dependencyIsSatisfied [ 'typeahead.js',
+193 silly dependencyIsSatisfied   '^0.11.1',
+193 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+194 verbose dependencyIsSatisfied typeahead.js false
+195 silly hasDependencyInstalled styleguidekit-assets-default webpack-dev-middleware
+196 silly dependencyIsSatisfied [ 'webpack-dev-middleware',
+196 silly dependencyIsSatisfied   '^1.8.4',
+196 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+197 verbose dependencyIsSatisfied webpack-dev-middleware false
+198 silly hasDependencyInstalled styleguidekit-assets-default webpack-dev-server
+199 silly dependencyIsSatisfied [ 'webpack-dev-server',
+199 silly dependencyIsSatisfied   '^1.14.1',
+199 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+200 verbose dependencyIsSatisfied webpack-dev-server false
+201 silly hasDependencyInstalled styleguidekit-assets-default webpack-hot-middleware
+202 silly dependencyIsSatisfied [ 'webpack-hot-middleware',
+202 silly dependencyIsSatisfied   '^2.13.2',
+202 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+203 verbose dependencyIsSatisfied webpack-hot-middleware false
+204 silly hasDependencyInstalled styleguidekit-assets-default webpack-module-hot-accept
+205 silly dependencyIsSatisfied [ 'webpack-module-hot-accept',
+205 silly dependencyIsSatisfied   '^1.0.4',
+205 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+206 verbose dependencyIsSatisfied webpack-module-hot-accept false
+207 silly hasDependencyInstalled styleguidekit-assets-default webpack-stream
+208 silly dependencyIsSatisfied [ 'webpack-stream',
+208 silly dependencyIsSatisfied   '^3.2.0',
+208 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+209 verbose dependencyIsSatisfied webpack-stream false
+210 silly hasDependencyInstalled styleguidekit-assets-default wolfy87-eventemitter
+211 silly dependencyIsSatisfied [ 'wolfy87-eventemitter',
+211 silly dependencyIsSatisfied   '^5.2.1',
+211 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/node_modules' ]
+212 verbose dependencyIsSatisfied wolfy87-eventemitter false
+213 silly hasDependencyInstalled theme-tools chai
+214 silly dependencyIsSatisfied [ 'chai',
+214 silly dependencyIsSatisfied   '^3.5.0',
+214 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/theme-tools/node_modules' ]
+215 verbose dependencyIsSatisfied chai true
+216 silly hasDependencyInstalled theme-tools chai-fs
+217 silly dependencyIsSatisfied [ 'chai-fs',
+217 silly dependencyIsSatisfied   '^1.0.0',
+217 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/theme-tools/node_modules' ]
+218 verbose dependencyIsSatisfied chai-fs true
+219 silly hasDependencyInstalled theme-tools eslint
+220 silly dependencyIsSatisfied [ 'eslint',
+220 silly dependencyIsSatisfied   '^3.19.0',
+220 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/theme-tools/node_modules' ]
+221 verbose dependencyIsSatisfied eslint true
+222 silly hasDependencyInstalled theme-tools eslint-config-airbnb
+223 silly dependencyIsSatisfied [ 'eslint-config-airbnb',
+223 silly dependencyIsSatisfied   '^14.1.0',
+223 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/theme-tools/node_modules' ]
+224 verbose dependencyIsSatisfied eslint-config-airbnb true
+225 silly hasDependencyInstalled theme-tools eslint-plugin-import
+226 silly dependencyIsSatisfied [ 'eslint-plugin-import',
+226 silly dependencyIsSatisfied   '^2.2.0',
+226 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/theme-tools/node_modules' ]
+227 verbose dependencyIsSatisfied eslint-plugin-import true
+228 silly hasDependencyInstalled theme-tools eslint-plugin-jsx-a11y
+229 silly dependencyIsSatisfied [ 'eslint-plugin-jsx-a11y',
+229 silly dependencyIsSatisfied   '^4.0.0',
+229 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/theme-tools/node_modules' ]
+230 verbose dependencyIsSatisfied eslint-plugin-jsx-a11y true
+231 silly hasDependencyInstalled theme-tools eslint-plugin-react
+232 silly dependencyIsSatisfied [ 'eslint-plugin-react',
+232 silly dependencyIsSatisfied   '^6.10.3',
+232 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/theme-tools/node_modules' ]
+233 verbose dependencyIsSatisfied eslint-plugin-react true
+234 silly hasDependencyInstalled theme-tools husky
+235 silly dependencyIsSatisfied [ 'husky',
+235 silly dependencyIsSatisfied   '^0.13.3',
+235 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/theme-tools/node_modules' ]
+236 verbose dependencyIsSatisfied husky true
+237 silly hasDependencyInstalled theme-tools mocha
+238 silly dependencyIsSatisfied [ 'mocha',
+238 silly dependencyIsSatisfied   '^3.3.0',
+238 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/theme-tools/node_modules' ]
+239 verbose dependencyIsSatisfied mocha true
+240 silly hasDependencyInstalled theme-tools nodemon
+241 silly dependencyIsSatisfied [ 'nodemon',
+241 silly dependencyIsSatisfied   '^1.11.0',
+241 silly dependencyIsSatisfied   '/Users/sghoweri/sites/patternlab-v3-poc/packages/theme-tools/node_modules' ]
+242 verbose dependencyIsSatisfied nodemon true
+243 silly root dependencies []
+244 silly leaf dependencies {
+244 silly leaf dependencies   "styleguidekit-assets-default": [
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-preset-es2015@^6.24.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp@^3.8.6",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "del@^1.1.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-autoprefixer@^2.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-concat@^2.3.4",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-file-include@^0.13.7",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-imagemin@^0.6.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-jshint@^1.8.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-load-plugins@^0.5.3",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-minify-css@^0.3.7",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-rename@^1.2.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-resolve-dependencies@^1.0.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-ruby-sass@^1.0.0-alpha",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-uglify@^1.1.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-util@^3.0.8",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "imagemin-pngcrush@^0.1.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "main-bower-files@^1.0.2",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "webpack@^3.0.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "webpack-bundle-analyzer@^2.8.2",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "yargs@^1.2.6",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "iron-icons@https://github.com/PolymerElements/iron-icons/archive/v2.0.1.zip",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-core@^6.25.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-loader@^7.1.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-plugin-dynamic-import-webpack@^1.0.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-plugin-rewire-exports@^0.2.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-plugin-transform-es2015-modules-commonjs@^6.24.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-plugin-transform-export-extensions@^6.22.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-plugin-transform-object-rest-spread@^6.23.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-plugin-transform-runtime@^6.23.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-polyfill@^6.22.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-preset-env@^1.1.8",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-preset-react@^6.22.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-preset-stage-2@^6.24.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-preset-stage-3@^6.22.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "babel-runtime@^6.11.6",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "cash-dom@^1.3.5",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "es-event-emitter@github:Zlobin/EventEmitter",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "exports-loader@^0.6.4",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "fg-loadcss@^1.3.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "fs@0.0.1-security",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "grunt-cli@^1.2.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-connect@^5.0.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-exec@^2.1.3",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-if@^2.0.2",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "gulp-plumber@^1.1.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "hogan@^1.0.2",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "hogan.js@^3.0.2",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "imports-loader@^0.7.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "jquery@https://github.com/jquery/jquery/archive/3.2.1.tar.gz",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "jwerty@keithamus/jwerty#master",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "jwerty-globals-fixed@^0.3.2",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "loadjs@^3.5.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "npm-git-install@^0.3.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "path@^0.12.7",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "prismjs@github:PrismJS/prism",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "process@^0.11.10",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "run-sequence@^2.0.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "twig@^1.10.5",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "typeahead.js@^0.11.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "webpack-dev-middleware@^1.8.4",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "webpack-dev-server@^1.14.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "webpack-hot-middleware@^2.13.2",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "webpack-module-hot-accept@^1.0.4",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "webpack-stream@^3.2.0",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "wolfy87-eventemitter@^5.2.1",
+244 silly leaf dependencies       "isSatisfied": false
+244 silly leaf dependencies     }
+244 silly leaf dependencies   ],
+244 silly leaf dependencies   "theme-tools": [
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "lerna@^2.0.0-rc.5",
+244 silly leaf dependencies       "isSatisfied": true
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "chai@^3.5.0",
+244 silly leaf dependencies       "isSatisfied": true
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "chai-fs@^1.0.0",
+244 silly leaf dependencies       "isSatisfied": true
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "eslint@^3.19.0",
+244 silly leaf dependencies       "isSatisfied": true
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "eslint-config-airbnb@^14.1.0",
+244 silly leaf dependencies       "isSatisfied": true
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "eslint-plugin-import@^2.2.0",
+244 silly leaf dependencies       "isSatisfied": true
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "eslint-plugin-jsx-a11y@^4.0.0",
+244 silly leaf dependencies       "isSatisfied": true
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "eslint-plugin-react@^6.10.3",
+244 silly leaf dependencies       "isSatisfied": true
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "husky@^0.13.3",
+244 silly leaf dependencies       "isSatisfied": true
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "mocha@^3.3.0",
+244 silly leaf dependencies       "isSatisfied": true
+244 silly leaf dependencies     },
+244 silly leaf dependencies     {
+244 silly leaf dependencies       "dependency": "nodemon@^1.11.0",
+244 silly leaf dependencies       "isSatisfied": true
+244 silly leaf dependencies     }
+244 silly leaf dependencies   ]
+244 silly leaf dependencies }
+245 info Installing external dependencies
+246 verbose actions 1 actions, concurrency 4
+247 silly installInDir styleguidekit-assets-pl3 [ 'babel-preset-es2015@^6.24.1',
+247 silly installInDir   'gulp@^3.8.6',
+247 silly installInDir   'del@^1.1.1',
+247 silly installInDir   'gulp-autoprefixer@^2.1',
+247 silly installInDir   'gulp-concat@^2.3.4',
+247 silly installInDir   'gulp-file-include@^0.13.7',
+247 silly installInDir   'gulp-imagemin@^0.6.1',
+247 silly installInDir   'gulp-jshint@^1.8.0',
+247 silly installInDir   'gulp-load-plugins@^0.5.3',
+247 silly installInDir   'gulp-minify-css@^0.3.7',
+247 silly installInDir   'gulp-rename@^1.2.0',
+247 silly installInDir   'gulp-resolve-dependencies@^1.0.1',
+247 silly installInDir   'gulp-ruby-sass@^1.0.0-alpha',
+247 silly installInDir   'gulp-uglify@^1.1.0',
+247 silly installInDir   'gulp-util@^3.0.8',
+247 silly installInDir   'imagemin-pngcrush@^0.1.0',
+247 silly installInDir   'main-bower-files@^1.0.2',
+247 silly installInDir   'webpack@^3.0.0',
+247 silly installInDir   'webpack-bundle-analyzer@^2.8.2',
+247 silly installInDir   'yargs@^1.2.6',
+247 silly installInDir   'iron-icons@https://github.com/PolymerElements/iron-icons/archive/v2.0.1.zip',
+247 silly installInDir   'babel-core@^6.25.0',
+247 silly installInDir   'babel-loader@^7.1.1',
+247 silly installInDir   'babel-plugin-dynamic-import-webpack@^1.0.1',
+247 silly installInDir   'babel-plugin-rewire-exports@^0.2.0',
+247 silly installInDir   'babel-plugin-transform-es2015-modules-commonjs@^6.24.1',
+247 silly installInDir   'babel-plugin-transform-export-extensions@^6.22.0',
+247 silly installInDir   'babel-plugin-transform-object-rest-spread@^6.23.0',
+247 silly installInDir   'babel-plugin-transform-runtime@^6.23.0',
+247 silly installInDir   'babel-polyfill@^6.22.0',
+247 silly installInDir   'babel-preset-env@^1.1.8',
+247 silly installInDir   'babel-preset-react@^6.22.0',
+247 silly installInDir   'babel-preset-stage-2@^6.24.1',
+247 silly installInDir   'babel-preset-stage-3@^6.22.0',
+247 silly installInDir   'babel-runtime@^6.11.6',
+247 silly installInDir   'cash-dom@^1.3.5',
+247 silly installInDir   'es-event-emitter@github:Zlobin/EventEmitter',
+247 silly installInDir   'exports-loader@^0.6.4',
+247 silly installInDir   'fg-loadcss@^1.3.1',
+247 silly installInDir   'fs@0.0.1-security',
+247 silly installInDir   'grunt-cli@^1.2.0',
+247 silly installInDir   'gulp-connect@^5.0.0',
+247 silly installInDir   'gulp-exec@^2.1.3',
+247 silly installInDir   'gulp-if@^2.0.2',
+247 silly installInDir   'gulp-plumber@^1.1.0',
+247 silly installInDir   'hogan@^1.0.2',
+247 silly installInDir   'hogan.js@^3.0.2',
+247 silly installInDir   'imports-loader@^0.7.1',
+247 silly installInDir   'jquery@https://github.com/jquery/jquery/archive/3.2.1.tar.gz',
+247 silly installInDir   'jwerty@keithamus/jwerty#master',
+247 silly installInDir   'jwerty-globals-fixed@^0.3.2',
+247 silly installInDir   'loadjs@^3.5.0',
+247 silly installInDir   'npm-git-install@^0.3.0',
+247 silly installInDir   'path@^0.12.7',
+247 silly installInDir   'prismjs@github:PrismJS/prism',
+247 silly installInDir   'process@^0.11.10',
+247 silly installInDir   'run-sequence@^2.0.0',
+247 silly installInDir   'twig@^1.10.5',
+247 silly installInDir   'typeahead.js@^0.11.1',
+247 silly installInDir   'webpack-dev-middleware@^1.8.4',
+247 silly installInDir   'webpack-dev-server@^1.14.1',
+247 silly installInDir   'webpack-hot-middleware@^2.13.2',
+247 silly installInDir   'webpack-module-hot-accept@^1.0.4',
+247 silly installInDir   'webpack-stream@^3.2.0',
+247 silly installInDir   'wolfy87-eventemitter@^5.2.1' ]
+248 silly installInDir backup /Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/package.json
+249 silly rename [ '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/package.json',
+249 silly rename   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/package.json.lerna_backup' ]
+250 silly installInDir writing tempJson { dependencies:
+250 silly installInDir    { 'babel-preset-es2015': '^6.24.1',
+250 silly installInDir      gulp: '^3.8.6',
+250 silly installInDir      del: '^1.1.1',
+250 silly installInDir      'gulp-autoprefixer': '^2.1',
+250 silly installInDir      'gulp-concat': '^2.3.4',
+250 silly installInDir      'gulp-file-include': '^0.13.7',
+250 silly installInDir      'gulp-imagemin': '^0.6.1',
+250 silly installInDir      'gulp-jshint': '^1.8.0',
+250 silly installInDir      'gulp-load-plugins': '^0.5.3',
+250 silly installInDir      'gulp-minify-css': '^0.3.7',
+250 silly installInDir      'gulp-rename': '^1.2.0',
+250 silly installInDir      'gulp-resolve-dependencies': '^1.0.1',
+250 silly installInDir      'gulp-ruby-sass': '^1.0.0-alpha',
+250 silly installInDir      'gulp-uglify': '^1.1.0',
+250 silly installInDir      'gulp-util': '^3.0.8',
+250 silly installInDir      'imagemin-pngcrush': '^0.1.0',
+250 silly installInDir      'main-bower-files': '^1.0.2',
+250 silly installInDir      webpack: '^3.0.0',
+250 silly installInDir      'webpack-bundle-analyzer': '^2.8.2',
+250 silly installInDir      yargs: '^1.2.6',
+250 silly installInDir      'iron-icons': 'https://github.com/PolymerElements/iron-icons/archive/v2.0.1.zip',
+250 silly installInDir      'babel-core': '^6.25.0',
+250 silly installInDir      'babel-loader': '^7.1.1',
+250 silly installInDir      'babel-plugin-dynamic-import-webpack': '^1.0.1',
+250 silly installInDir      'babel-plugin-rewire-exports': '^0.2.0',
+250 silly installInDir      'babel-plugin-transform-es2015-modules-commonjs': '^6.24.1',
+250 silly installInDir      'babel-plugin-transform-export-extensions': '^6.22.0',
+250 silly installInDir      'babel-plugin-transform-object-rest-spread': '^6.23.0',
+250 silly installInDir      'babel-plugin-transform-runtime': '^6.23.0',
+250 silly installInDir      'babel-polyfill': '^6.22.0',
+250 silly installInDir      'babel-preset-env': '^1.1.8',
+250 silly installInDir      'babel-preset-react': '^6.22.0',
+250 silly installInDir      'babel-preset-stage-2': '^6.24.1',
+250 silly installInDir      'babel-preset-stage-3': '^6.22.0',
+250 silly installInDir      'babel-runtime': '^6.11.6',
+250 silly installInDir      'cash-dom': '^1.3.5',
+250 silly installInDir      'es-event-emitter': 'github:Zlobin/EventEmitter',
+250 silly installInDir      'exports-loader': '^0.6.4',
+250 silly installInDir      'fg-loadcss': '^1.3.1',
+250 silly installInDir      fs: '0.0.1-security',
+250 silly installInDir      'grunt-cli': '^1.2.0',
+250 silly installInDir      'gulp-connect': '^5.0.0',
+250 silly installInDir      'gulp-exec': '^2.1.3',
+250 silly installInDir      'gulp-if': '^2.0.2',
+250 silly installInDir      'gulp-plumber': '^1.1.0',
+250 silly installInDir      hogan: '^1.0.2',
+250 silly installInDir      'hogan.js': '^3.0.2',
+250 silly installInDir      'imports-loader': '^0.7.1',
+250 silly installInDir      jquery: 'https://github.com/jquery/jquery/archive/3.2.1.tar.gz',
+250 silly installInDir      jwerty: 'keithamus/jwerty#master',
+250 silly installInDir      'jwerty-globals-fixed': '^0.3.2',
+250 silly installInDir      loadjs: '^3.5.0',
+250 silly installInDir      'npm-git-install': '^0.3.0',
+250 silly installInDir      path: '^0.12.7',
+250 silly installInDir      prismjs: 'github:PrismJS/prism',
+250 silly installInDir      process: '^0.11.10',
+250 silly installInDir      'run-sequence': '^2.0.0',
+250 silly installInDir      twig: '^1.10.5',
+250 silly installInDir      'typeahead.js': '^0.11.1',
+250 silly installInDir      'webpack-dev-middleware': '^1.8.4',
+250 silly installInDir      'webpack-dev-server': '^1.14.1',
+250 silly installInDir      'webpack-hot-middleware': '^2.13.2',
+250 silly installInDir      'webpack-module-hot-accept': '^1.0.4',
+250 silly installInDir      'webpack-stream': '^3.2.0',
+250 silly installInDir      'wolfy87-eventemitter': '^5.2.1' } }
+251 silly getExecOpts { cwd: '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3' }
+252 silly installInDir [ 'npm', [ 'install' ] ]
+253 silly installInDir cleanup /Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/package.json
+254 silly renameSync [ '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/package.json.lerna_backup',
+254 silly renameSync   '/Users/sghoweri/sites/patternlab-v3-poc/packages/pattern-lab/styleguidekit-assets-pl3/package.json' ]
+255 verbose installed leaf styleguidekit-assets-default
+256 error execute Error: Command failed: npm install
+256 error execute npm ERR! Invalid tar header. Maybe the tar is corrupted or it needs to be gunzipped?
+256 error execute
+256 error execute npm ERR! A complete log of this run can be found in:
+256 error execute npm ERR!     /Users/sghoweri/.npm/_logs/2017-08-06T14_49_09_947Z-debug.log
+256 error execute
+256 error execute     at Promise.all.then.arr (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:210:11)
+256 error execute     at process._tickCallback (internal/process/next_tick.js:109:7)
+256 error execute  callback with error
+256 error execute  { Error: Command failed: npm install
+256 error execute npm ERR! Invalid tar header. Maybe the tar is corrupted or it needs to be gunzipped?
+256 error execute
+256 error execute npm ERR! A complete log of this run can be found in:
+256 error execute npm ERR!     /Users/sghoweri/.npm/_logs/2017-08-06T14_49_09_947Z-debug.log
+256 error execute
+256 error execute     at Promise.all.then.arr (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:210:11)
+256 error execute     at process._tickCallback (internal/process/next_tick.js:109:7)
+256 error execute   stack: 'Error: Command failed: npm install\nnpm ERR! Invalid tar header. Maybe the tar is corrupted or it needs to be gunzipped?\n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /Users/sghoweri/.npm/_logs/2017-08-06T14_49_09_947Z-debug.log\n\n    at Promise.all.then.arr (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:210:11)\n    at process._tickCallback (internal/process/next_tick.js:109:7)',
+256 error execute   code: 1,
+256 error execute   killed: false,
+256 error execute   stdout: '',
+256 error execute   stderr: 'npm ERR! Invalid tar header. Maybe the tar is corrupted or it needs to be gunzipped?\n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /Users/sghoweri/.npm/_logs/2017-08-06T14_49_09_947Z-debug.log\n',
+256 error execute   failed: true,
+256 error execute   signal: null,
+256 error execute   cmd: 'npm install',
+256 error execute   timedOut: false }

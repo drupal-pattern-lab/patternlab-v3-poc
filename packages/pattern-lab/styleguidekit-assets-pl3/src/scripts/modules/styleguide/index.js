@@ -30,7 +30,7 @@ Dispatcher.addListener('setupNavigation', loadPatternData);
 
 
 function styleguideInit() {
-  
+
   var sw = document.body.clientWidth, //Viewport Width
     sh = $(document).height(), //Viewport Height
     minViewportWidth = parseInt(config.ishMinimum), //Minimum Size for Viewport
@@ -40,7 +40,7 @@ function styleguideInit() {
     $sizePx = $('.sg-size-px'), //Px size input element in toolbar
     $sizeEms = $('.sg-size-em'), //Em size input element in toolbar
     $bodySize = (config.ishFontSize !== undefined) ? parseInt(config.ishFontSize) : parseInt($('body').css('font-size')), //Body size of the document,
-    $headerHeight = $('.sg-header').height(),
+    $headerHeight = $('.js-navbar').height(),
     discoID = false,
     discoMode = false,
     fullMode = true,
@@ -91,7 +91,7 @@ function styleguideInit() {
 
   $('.sg-nav-toggle').on("click", function(e){
     e.preventDefault();
-    $('.sg-nav-container').toggleClass('active');
+    $('.js-navigation').toggleClass('active');
   });
 
   // "View (containing clean, code, raw, etc options) Trigger
@@ -551,7 +551,7 @@ function styleguideInit() {
 
   //Close all dropdowns and navigation
   function closePanels() {
-    $('.sg-nav-container, .sg-nav-toggle, .sg-acc-handle, .sg-acc-panel').removeClass('active');
+    $('.js-navigation, .sg-nav-toggle, .sg-acc-handle, .sg-acc-panel').removeClass('active');
     patternFinder.closeFinder();
   }
 
@@ -597,9 +597,9 @@ function styleguideInit() {
     try {
       data = (typeof event.data !== 'string') ? event.data : JSON.parse(event.data);
     } catch(e) {}
-    
+
     if (data.event !== undefined) {
-      
+
       if (data.event == "patternLab.pageLoad") {
 
         if (!urlHandler.skipBack) {
@@ -649,9 +649,9 @@ function styleguideInit() {
         }
         return false;
       }
-      
+
     }
-    
+
   }
   window.addEventListener("message", receiveIframeMessage, false);
 }

@@ -6,6 +6,7 @@ module.exports = (options) => {
     resolve: {
       alias: {
         modules: path.resolve(__dirname, 'src/scripts/modules/'),
+        'critical-path': path.resolve(__dirname, 'src/scripts/critical-path/'),
         libs: path.resolve(__dirname, 'src/scripts/libs/'),
         jquery: "jquery/dist/jquery.js"
       }
@@ -13,7 +14,8 @@ module.exports = (options) => {
     },
     entry: {
       'patternlab-pattern': `${__dirname}/src/scripts/patternlab-pattern.js`,
-      'patternlab-viewer': `${__dirname}/src/scripts/patternlab-viewer.js`
+      'patternlab-viewer': `${__dirname}/src/scripts/patternlab-viewer.js`,
+      'critical-path': `${__dirname}/src/scripts/critical-path.js`,
     },
     output: {
       path: `${__dirname}/dist/styleguide/js`,
@@ -35,10 +37,10 @@ module.exports = (options) => {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
-          options: { 
-            presets: [ 
-              [ 'es2015', { modules: false } ] 
-            ] 
+          options: {
+            presets: [
+              [ 'es2015', { modules: false } ]
+            ]
           }
         }
       ]

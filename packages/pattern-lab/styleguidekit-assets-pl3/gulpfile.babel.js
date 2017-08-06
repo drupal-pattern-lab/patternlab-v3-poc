@@ -16,6 +16,7 @@ const webpackConfig = require('./webpack.config.js');
 require('./build-tasks/webpack')(gulp, webpackConfig);
 require('./build-tasks/watch')(gulp);
 require('./build-tasks/browsersync')(gulp);
+require('./build-tasks/gulp-svgstore')(gulp);
 
 
 function copyPublic(suffix) {
@@ -71,7 +72,7 @@ gulp.task('build:js-prod', ['webpack:prod'], function() {
 });
 
 gulp.task('serve', function(cb) {
-	runSequence(['build:js', 'watch', 'build:html', 'build:css-patternlab'], cb);
+	runSequence(['svgstore', 'build:js', 'watch', 'build:html', 'build:css-patternlab'], cb);
 });
 
 gulp.task('serve:prod', function(cb) {

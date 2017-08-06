@@ -15,7 +15,7 @@
     <link rel="preload" as="script" href="/styleguide/data/patternlab-data.js">
     <link rel="preload" as="script" href="/styleguide/js/patternlab-pattern.min.js">
 
-
+    <script src="/styleguide/js/critical-path.min.js" async></script>
 
 
     <!-- handle the viewport -->
@@ -30,12 +30,66 @@
   <body id="patternlab-body">
 
     <!--Style Guide Header-->
-    <header class="sg-header" role="banner">
-      <a href="#sg-nav-container" class="sg-nav-toggle">Menu</a>
-      <div class="sg-nav-container" id="sg-nav-container">
-        <ol class="sg-nav" id="pl-pattern-nav-target"><!-- pattern lab nav will be inserted here --></ol>
-        <div class="sg-controls" id="sg-controls"><!-- ish Controls will be inserted here --></div>
+    <header class="sg-header c-pl-navbar js-navbar" role="banner">
+      <button class="c-pl-navbar__toggle js-navbar-toggle">Toggle Navbar</button>
+      <!-- <ul class="c-pl-navigation">
+
+      </ul> -->
+
+      <div class="c-pl-toggle-mode">
+        <ul class="o-pl-inline-list c-pl-toggle-mode__items">
+          <li class="o-pl-inline-list__item c-pl-toggle-mode__item">
+            <a href="#" class="c-pl-toggle-mode__link is-active">
+              <span class="c-pl-toggle-mode__text u-pl-visually-hidden">Preview Patterns</span>
+              <svg class="o-pl-icon c-pl-toggle-mode__icon" viewBox="0 0 24 24" alt="icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#eyeball-show"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="o-pl-inline-list__item c-pl-toggle-mode__item">
+            <a href="#" class="c-pl-toggle-mode__link">
+              <span class="c-pl-toggle-mode__text u-pl-visually-hidden">Toggle Annotations</span>
+              <svg class="o-pl-icon c-pl-toggle-mode__icon" viewBox="0 0 24 24" alt="icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#annotations"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="o-pl-inline-list__item c-pl-toggle-mode__item">
+            <a href="#" class="c-pl-toggle-mode__link">
+              <span class="c-pl-toggle-mode__text u-pl-visually-hidden">View Code</span>
+              <svg class="o-pl-icon c-pl-toggle-mode__icon" viewBox="0 0 24 24" alt="icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#code"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="o-pl-inline-list__item c-pl-toggle-mode__item">
+            <a href="#" class="c-pl-toggle-mode__link">
+              <span class="c-pl-toggle-mode__text u-pl-visually-hidden">Edit Content</span>
+              <svg class="o-pl-icon c-pl-toggle-mode__icon" viewBox="0 0 24 24" alt="icon">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#edit"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
+
+
+      <a href="#sg-nav-container" class="sg-nav-toggle">Menu</a>
+
+
+
+      <!-- <div class="sg-nav-container" id="sg-nav-container"> -->
+        <ol class="sg-nav js-navigation" id="pl-pattern-nav-target">
+          <!-- pattern lab nav will be inserted here -->
+        </ol>
+
+        <div class="sg-controls" id="sg-controls"><!-- ish Controls will be inserted here -->
+        </div>
+
+      <!-- </div> -->
     </header>
     <!--End Style Guide Header-->
 

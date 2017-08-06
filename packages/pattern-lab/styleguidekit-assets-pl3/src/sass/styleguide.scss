@@ -99,6 +99,47 @@ $sg-border-radius : 3px;
 $sg-border-radius-med : 6px;
 
 
+
+// Settings
+
+
+
+// Tools
+
+
+
+// Generic
+
+
+// Elements
+
+
+
+// Objects
+@import '05-objects/objects.icons';
+@import '05-objects/objects.inline-list';
+
+
+// Components
+@import '06-components/components.navbar';
+@import '06-components/components.toggle-mode';
+
+
+// Themes
+
+
+
+// Utilities
+@import '08-utilities/utilities.visually-hidden';
+
+
+
+
+
+
+
+
+
 /*------------------------------------*\
 #RESET
 \*------------------------------------*/
@@ -173,16 +214,16 @@ $sg-border-radius-med : 6px;
     // background: $sg-black;
     // color: $sg-white;
     // font-family: $sg-font;
-    font-family: "Open Sans", open-sans, sans-serif;
-    background-color: #1f2532;
-    box-shadow: 0 5px 9px rgba(31,37,50,.15);
-    color: #fff;
-    text-transform: uppercase;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 4;
-    width: 100%;
+    // font-family: "Open Sans", open-sans, sans-serif;
+    // background-color: #1f2532;
+    // box-shadow: 0 5px 9px rgba(31,37,50,.15);
+    // color: #fff;
+    // text-transform: uppercase;
+    // position: fixed;
+    // top: 0;
+    // left: 0;
+    // z-index: 4;
+    // width: 100%;
 
     /**
     * All lists appearing in the header
@@ -422,10 +463,11 @@ $sg-border-radius-med : 6px;
 */
 .sg-controls {
     border: 0;
-    position: absolute;
+    // position: absolute;
     top: 0;
     right: 0;
     z-index: 2;
+    order: 3;
 }
 
 /**
@@ -759,11 +801,21 @@ $sg-border-radius-med : 6px;
     text-align: center;
     width: 100%;
     position: fixed;
-    top: $offset-top;
+    // top: $offset-top;
+    top: 60px;
     bottom: 0;
     left: 0;
     right: 0;
     z-index: 0;
+  transform: translate3d(0, 0px, 0);
+  will-change: height, transform;
+  height: calc(100vh - 60px);
+  transition: all 250ms ease-in-out;
+}
+
+.c-pl-navbar.is-hidden ~ #sg-vp-wrap {
+  transform: translate3d(0,-60px,0);
+  height: calc(100vh);
 }
 
 /**

@@ -1,0 +1,28 @@
+.c-pl-toggle-mode {
+  // height: 60px;
+  // position: absolute;
+  // left: 50%;
+  // transform: translateX(-50%);
+  order: 2;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-color: #191e29;
+  background-color: #1c222e;
+  color: #8a909c;
+
+  // margin-left: -132px;
+  // border-top: 0;
+  // border-bottom: 0;
+}
+
+.c-pl-toggle-mode__link {
+  color: inherit;
+  border-bottom: 4px solid transparent;
+  display: inline-block;
+
+  &.is-active {
+    color: #61d079;
+    border-bottom-color: currentColor;
+  }
+}

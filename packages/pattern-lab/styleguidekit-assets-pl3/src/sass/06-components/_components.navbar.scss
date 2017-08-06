@@ -1,0 +1,40 @@
+.c-pl-navbar {
+  display: flex;
+  background-color: #1f2532;
+  box-shadow: 0 5px 9px rgba(31,37,50,.15);
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #fff;
+  position: fixed;
+  font-family: 'Open Sans', open-sans, sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 5;
+  transition: all 250ms ease-in-out;
+  transform: translate3d(0, 0, 0);
+
+  &.is-hidden {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+
+.c-pl-navbar__toggle {
+  color: #fff;
+  background: #272e3c;
+  opacity: .5;
+  font-size: 11px;
+  position: fixed;
+  padding: 1px 8px 1px 6px;
+  border-radius: 0 3px 0 0;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  transition: all 250ms ease-in-out;
+  transform: translate3d(0, 60px, 0);
+
+  &.nav-is-hidden {
+    // transform: translate3d(0, 0, 0)
+  }
+}

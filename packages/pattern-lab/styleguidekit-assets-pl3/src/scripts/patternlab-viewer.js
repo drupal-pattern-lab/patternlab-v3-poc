@@ -3,6 +3,7 @@
 import EventEmitter from 'wolfy87-eventemitter';
 window.Dispatcher = new EventEmitter();
 
+require('modules/toggle-navbar');
 require('modules/typeahead');
 require('modules/layout');
 require('modules/modal-viewer');
